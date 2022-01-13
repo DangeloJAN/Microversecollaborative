@@ -1,0 +1,12 @@
+#image{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 600px;
+    height: 500px;
+}
+#title{
+    text-align: center;
+};
