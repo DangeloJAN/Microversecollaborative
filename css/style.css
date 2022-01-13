@@ -1,12 +1,22 @@
-#image{
+#img-div{
     display: flex;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
     margin: auto;
     width: 600px;
     height: 500px;
 }
+
+#image{
+    max-width: 100%;
+    height: auto;
+}
+
 #title{
     text-align: center;
-};
+}
+
+#parrafo, #img-caption{
+    text-align: center;
+    color: white;
+}
+  
